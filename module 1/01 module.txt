@@ -1,0 +1,23 @@
+// this is my first c pogram
+
+int main(){
+    // print name
+     char name[]="";
+      printf("enter you name: ");
+      scanf("%s", name);
+      printf("your name is  %s\n",name);
+
+
+      //print age
+      int age;
+      printf("enter your age: ");
+      scanf("%d",&age);
+      printf("your age is %d\n",age);
+
+
+      // print my birthday 
+      int day,month,year;
+      printf("enter you bithday: ");
+      scanf("%d %d %d", &day ,&month,&year);
+      printf("your bithday is %d/%d/%d", day,month,year);
+ }
